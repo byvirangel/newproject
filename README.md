@@ -27,21 +27,27 @@ README.md
 ## ⚙️ Setup Instructions
 
 ### 1. Create virtual environment
+#Windows
+python -m venv .venv_newproject
 
-python -m venv .venv
+#mac
+python3 -m venv .venv_newproject
 
 ### 2. Activate virtual environment
+#windows
+.venv_newproject\Scripts\Activate.ps1
 
-.venv\\Scripts\\Activate.ps1
+#mac
+source .venv_newproject/bin/activate
 
 ### 3. Install dependencies
-
+#windows and mac
 pip install -r requirements.txt
 
 ---
 
 ## ▶️ Run the cleaning pipeline
-
+#windows and mac
 python models\src\clean_sales_data.py
 
 ---
