@@ -47,8 +47,11 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Run the cleaning pipeline
-#windows and mac
+#windows
 python models\src\clean_sales_data.py
+
+#mac
+python models/src/clean_sales_data.py
 
 ---
 
